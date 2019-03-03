@@ -1,0 +1,10 @@
+*.log
+*.temp
+/mergedaemon/Debug
+/mergedaemon/.vs
+/client/Debug
+/client/.vs
+/httpd/Debug
+/httpd/.vs
+.vs
+.git
