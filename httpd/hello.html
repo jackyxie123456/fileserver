@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 大文件上传示例</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+    var page = {
+        init: function(){
+            $("#upload").click($.proxy(this.upload, this));
+        },
+         
+        upload: function(){
+            var file = $("#file")[0].files[0],  //文件对象
+                name = file.name,        //文件名   
+                size = file.size,        //؜总大小
+                succeed = 0;
+                  
+            var shardSize = 2 * 1024 * 1024,     //以 2M 为一个分片
+                shardCount = Math.ceil(size / shardSize);   //؜ 总片数
+                  
+            for(var i = 0;i < shardCount;++i){
+                // 计算相对位置
+                var start = i * shardSize,
+                    end = Math.min(size, start + shardSize);
+ 
+                //构造表单  Formdata 是 h5 新增加的
+                var form = new FormData();
+                form.append("data", file.slice(start,end));  //slice用于切出文件的一部分
+                //form.append("name", name);
+                //form.append("total", shardCount);   //؜总片数据 
+                //form.append("index", i + 1);        //当前第几片 
+                 
+                var pathIndex = "";
+                pathIndex += "&total=" + shardCount;
+                pathIndex += "&index=" + (i + 1);
+                
+                //Ajax  提交
+                $.ajax({
+                    url: "/upload?path=" + name + "&" + pathIndex,
+                    type: "POST",
+                    data: form,
+                    async: true,         //异步
+                    processData: false,  // 告诉 jquery 不对 form 进行处理
+                    contentType: false,  //指定为 false  ,才能形成正确的 Content-Type
+                    success: function(){
+                        ++succeed;
+                        $("#output").text(succeed + " / " + shardCount);
+                    }
+                });
+            }
+        }
+    };
+    $(function(){
+        page.init();
+    });
+    </script>
+</head>
+<body>
+    <input type="file" id="file" />
+    <button id="upload">上传</button>
+    <span id="output" style="font-size:12px">等待</span>
+</body>
+</html>

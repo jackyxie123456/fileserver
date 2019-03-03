@@ -1,0 +1,92 @@
+﻿  DelayTask.cpp
+d:\work\luckin\luckinsense\fileserver\common\task.h(60): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(476): note: 参见“ctime”的声明
+d:\work\luckin\luckinsense\fileserver\common\taskqueue.h(49): warning C4018: “<”: 有符号/无符号不匹配
+  MergeDelayTask.cpp
+d:\work\luckin\luckinsense\fileserver\common\task.h(60): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(476): note: 参见“ctime”的声明
+d:\work\luckin\luckinsense\fileserver\common\taskqueue.h(49): warning C4018: “<”: 有符号/无符号不匹配
+d:\work\luckin\luckinsense\fileserver\common\delaytask.h(17): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+d:\work\luckin\luckinsense\fileserver\common\delaytask.h(43): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+  MergeTask.cpp
+d:\work\luckin\luckinsense\fileserver\common\task.h(60): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(476): note: 参见“ctime”的声明
+d:\work\luckin\luckinsense\fileserver\common\taskqueue.h(49): warning C4018: “<”: 有符号/无符号不匹配
+  Task.cpp
+d:\work\luckin\luckinsense\fileserver\common\task.h(60): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(476): note: 参见“ctime”的声明
+d:\work\luckin\luckinsense\fileserver\common\taskqueue.h(49): warning C4018: “<”: 有符号/无符号不匹配
+  TaskQueue.cpp
+d:\work\luckin\luckinsense\fileserver\common\task.h(60): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(476): note: 参见“ctime”的声明
+d:\work\luckin\luckinsense\fileserver\common\taskqueue.h(49): warning C4018: “<”: 有符号/无符号不匹配
+d:\work\luckin\luckinsense\fileserver\common\taskqueue.cpp(40): warning C4244: “参数”: 从“time_t”转换到“int”，可能丢失数据
+d:\work\luckin\luckinsense\fileserver\common\taskqueue.cpp(42): warning C4244: “参数”: 从“time_t”转换到“int”，可能丢失数据
+  utils2.cpp
+d:\work\luckin\luckinsense\fileserver\common\utils2.cpp(134): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\work\luckin\luckinsense\fileserver\common\utils2.cpp(189): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+  checkMergeTask.cpp
+d:\work\luckin\luckinsense\fileserver\common\task.h(60): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(476): note: 参见“ctime”的声明
+d:\work\luckin\luckinsense\fileserver\common\taskqueue.h(49): warning C4018: “<”: 有符号/无符号不匹配
+d:\work\luckin\luckinsense\fileserver\common\delaytask.h(17): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+d:\work\luckin\luckinsense\fileserver\common\delaytask.h(43): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+  mergedaemon.cpp
+d:\work\luckin\luckinsense\fileserver\common\task.h(60): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(476): note: 参见“ctime”的声明
+d:\work\luckin\luckinsense\fileserver\common\taskqueue.h(49): warning C4018: “<”: 有符号/无符号不匹配
+d:\work\luckin\luckinsense\fileserver\mergedaemon\mergedaemon.cpp(93): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+d:\work\luckin\luckinsense\fileserver\mergedaemon\mergedaemon.cpp(94): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+d:\work\luckin\luckinsense\fileserver\mergedaemon\mergedaemon.cpp(98): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+d:\work\luckin\luckinsense\fileserver\mergedaemon\mergedaemon.cpp(127): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+d:\work\luckin\luckinsense\fileserver\mergedaemon\mergedaemon.cpp(107): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\work\luckin\luckinsense\fileserver\mergedaemon\mergedaemon.cpp(113): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(476): note: 参见“ctime”的声明
+d:\work\luckin\luckinsense\fileserver\mergedaemon\mergedaemon.cpp(146): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(476): note: 参见“ctime”的声明
+  mergepipe.cpp
+d:\work\luckin\luckinsense\fileserver\common\task.h(60): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(476): note: 参见“ctime”的声明
+d:\work\luckin\luckinsense\fileserver\common\taskqueue.h(49): warning C4018: “<”: 有符号/无符号不匹配
+  msgcommon.cpp
+d:\work\luckin\luckinsense\fileserver\mergedaemon\msgcommon.cpp(71): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+d:\work\luckin\luckinsense\fileserver\mergedaemon\msgcommon.cpp(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+  TimerManager.cpp
+  正在生成代码...
+  logger.c
+d:\work\luckin\luckinsense\fileserver\common\logger.c(108): warning C4013: “strlen”未定义；假设外部返回 int
+d:\work\luckin\luckinsense\fileserver\common\logger.c(105): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\work\luckin\luckinsense\fileserver\common\logger.c(128): warning C4013: “memcpy”未定义；假设外部返回 int
+d:\work\luckin\luckinsense\fileserver\common\logger.c(147): warning C4013: “memset”未定义；假设外部返回 int
+d:\work\luckin\luckinsense\fileserver\common\logger.c(148): warning C4013: “root_path”未定义；假设外部返回 int
+d:\work\luckin\luckinsense\fileserver\common\logger.c(151): warning C4013: “strcat”未定义；假设外部返回 int
+d:\work\luckin\luckinsense\fileserver\common\logger.c(138): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(506): note: 参见“localtime”的声明
+  unicode.c
+  utils.c
+d:\work\luckin\luckinsense\fileserver\common\utils.c(40): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\work\luckin\luckinsense\fileserver\common\utils.c(59): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\work\luckin\luckinsense\fileserver\common\utils.c(99): warning C4018: “<”: 有符号/无符号不匹配
+d:\work\luckin\luckinsense\fileserver\common\utils.c(119): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(640): note: 参见“_itoa”的声明
+d:\work\luckin\luckinsense\fileserver\common\utils.c(271): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\work\luckin\luckinsense\fileserver\common\utils.c(289): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+d:\work\luckin\luckinsense\fileserver\common\utils.c(320): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+  mergefile.c
+d:\work\luckin\luckinsense\fileserver\mergedaemon\mergefile.c(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\work\luckin\luckinsense\fileserver\mergedaemon\mergefile.c(65): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  正在生成代码...
+  mergedaemon.vcxproj -> D:\work\luckin\luckinsense\fileserver\mergedaemon\Debug\mergedaemon.exe
